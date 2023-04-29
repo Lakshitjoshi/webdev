@@ -1,0 +1,145 @@
+:root{
+    --primaryColor:#577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont:'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif;
+    --titleFont: 'Sacramento', cursive;
+}
+*{
+    margin: 0;
+}
+
+body{
+    font-family: var(--fontDefaultHeading);
+    color: var(--primaryColor);
+    line-height: 2;
+}
+
+.heading{
+    font-family: var(--titleFont);
+    margin: 0;
+    font-size: 5rem;
+}
+.heading-group{
+
+    /* display: inline-block;
+    margin-top: 100px; */
+}  
+h2{
+    
+    color: var(--primaryColor);
+    margin:0;
+    font-size: 2.25em;
+    font-weight:100px;
+    padding-bottom: 20px;
+}
+.top-section{
+    color:var(--primaryColor);
+    background-color: var(--backgroundColor);
+    text-align: center ;
+    padding-top: 80px;
+    /* height: auto; */
+}
+.top-cloud{
+    width: 100px;
+    position: absolute;
+    margin-block-start: -40px;
+    margin-left: 350px;
+
+}
+.bottom-cloud{
+    width: 100px;
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+}
+.mountain{
+    width: 400px;
+    
+}
+img{
+    margin-bottom: -10px;
+}
+hr{
+    margin: 100px auto;
+    border: dotted var(--backgroundColor) 5px;
+    border-bottom: none;
+    width:5%;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 100px auto;
+}
+.profile-pic{
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    
+}
+.intro{
+    margin: auto;
+    width: 37%;
+    color: var(--primaryColor);
+}
+.middle-section{
+    margin: 100px ;
+    text-align: center;
+}
+.skill-image{
+    width: 150px;    
+}
+.my-skills{
+    margin:0px auto 100px auto;
+}
+.left{
+    float:left;
+    margin-left: -14px;
+    margin-right: 10px;
+}
+.right{
+    margin-right:50px;
+    float: right;
+}
+.skills{
+    width:70%;
+    margin: 100px auto;
+    text-align: left;
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(180deg,var(--backgroundColor),var(--primaryColor));
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.25em;
+    color: white;
+
+}
+
+.contact:hover{
+    background-image: linear-gradient(180deg,var(--primaryColor),var(--backgroundColor));
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.bottom-section {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+    color: white;
+}
+.social{
+    margin: auto 50px;
+}
+.social:hover{
+    color: var(--primaryColor);
+}
+.social-container{
+    margin-bottom: 50px;
+}
+
+
